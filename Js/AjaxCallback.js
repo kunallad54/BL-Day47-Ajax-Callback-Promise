@@ -40,7 +40,7 @@
     
     const deleteURL = "http://127.0.0.1:3000/employees/4";
     function userDeleted(data) {
-        console.log("User Dleted: " +data);
+        console.log("User Deleted: " +data);
     }
     makeAJAXCall("DELETE", deleteURL, userDeleted, false);
     
